@@ -11,6 +11,10 @@ python-dotenv = "*"
 psycopg2 = "*"
 passlib = "*"
 
+# for testing
+pytest = "*"
+requests = "*"
+
 [dev-packages]
 
 [requires]
