@@ -1,5 +1,6 @@
 import json
 
+
 def test_create_job(client, normal_user_token_headers):
     data = {
         "title": "SDE 1 Yahoo",
@@ -16,7 +17,7 @@ def test_create_job(client, normal_user_token_headers):
     assert response.json()["description"] == "Testing"
 
 
-def test_retreive_job_by_id(client):
+def test_retrieve_job_by_id(client):
     data = {
         "title": "SDE 1 Yahoo",
         "company": "testhoo",
