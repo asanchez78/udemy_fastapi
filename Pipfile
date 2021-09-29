@@ -1,28 +1,28 @@
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
-fastapi = "*"
-uvicorn = "*"
-sqlalchemy = "*"
-python-dotenv = "*"
-psycopg2 = "*"
-passlib = "*"
-
-# for testing
-pytest = "*"
-requests = "*"
-pytest-cov
-
-# for jwt tokens
-python-jose
-
-# for form data
-python-multipart
-
-[dev-packages]
-
-[requires]
-python_version = "3.9"
+#[[source]]
+#url = "https://pypi.org/simple"
+#verify_ssl = true
+#name = "pypi"
+#
+#[packages]
+#fastapi = "*"
+#uvicorn = "*"
+#sqlalchemy = "*"
+#python-dotenv = "*"
+#psycopg2 = "*"
+#passlib = "*"
+#
+## for testing
+#pytest = "*"
+#requests = "*"
+#pytest-cov = '*'
+#
+## for jwt tokens
+#python-jose = '*'
+#
+## for form data
+#python-multipart = '*'
+#
+#[dev-packages]
+#
+#[requires]
+#python_version = "*"
