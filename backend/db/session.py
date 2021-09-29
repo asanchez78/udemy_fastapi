@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from core.config import settings
 from typing import Generator
 
-# SQLALCHEMY_DATABASE_URL = settings.DATABASE_URL 
+# SQLALCHEMY_DATABASE_URL = settings.DATABASE_URL
 # engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 # if you don't want to install postgres or any database, use sqlite, a file system based database,
@@ -22,6 +22,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 def get_db() -> Generator:
     try:
         db = SessionLocal()
-        yield db 
+        yield db
     finally:
         db.close()
