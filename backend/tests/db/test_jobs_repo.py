@@ -1,4 +1,4 @@
-from db.models.jobs import Job
+# from db.models.jobs import Job
 from sqlalchemy.orm import Session
 
 from db.repository.jobs import create_new_job, retrieve_job
